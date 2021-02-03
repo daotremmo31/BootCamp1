@@ -1,0 +1,45 @@
+#wrapper, #btn-reset, #btn-check {
+  font-family: cursive;
+  text-align: center;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: 0 auto;
+  padding: 5px;
+  border: 1px solid #8f8f8f;
+  color: #323232;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+tr>td {
+  width: 28px;
+  height: 28px;
+  background: #f1f1f1;
+  cursor: pointer;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+
+.player1 tr>td:hover {
+  background: #FF7F7FFF;
+  transition-duration: 0.4s;
+}
+
+.player2 tr>td:hover {
+  background: #7FFF8EFF;
+  transition-duration: 0.4s;
+}
+
+.btn-reset {
+  display: block;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+
+
+
